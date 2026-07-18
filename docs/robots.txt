@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://denismyagikov.github.io/CovePilot-Download/sitemap.xml

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; script-src 'self'; style-src 'self'; object-src 'none'; base-uri 'none'; connect-src 'none'; form-action 'none'">
+  <title>CovePilot для macOS</title>
+  <link rel="icon" href="../assets/favicon.png">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <script src="../assets/site.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="CovePilot"><img src="../assets/favicon.png" alt=""> CovePilot</a>
+    <nav aria-label="Language"><a href="../en/">English</a></nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Public Technical Preview · macOS</p>
+        <h1>Local-first остров и Кови для вашего Mac.</h1>
+        <p class="lead">Кови живёт в compact notch-aware island и показывает Codex work, таймеры, Apple Music, погоду, время суток и аудиовыход без перегрузки menu bar.</p>
+        <div class="actions">
+          <a class="button primary" href="https://github.com/DenisMyagikov/CovePilot-Download/releases/download/v0.9.0-beta.2/CovePilot-0.9.0-beta.2-macOS-arm64.dmg">Скачать RC2 DMG</a>
+          <a class="button" href="https://github.com/DenisMyagikov/CovePilot-Download/blob/main/INSTALL.ru.md">Инструкция</a>
+        </div>
+        <p class="warning">Сборка подписана ad-hoc и не notarized. macOS потребует ручное подтверждение в Privacy & Security.</p>
+      </div>
+      <figure class="compact-shot">
+        <img src="../assets/images/compact-island.png" alt="Compact island CovePilot">
+      </figure>
+    </section>
+
+    <section class="facts" aria-label="Release facts">
+      <div><strong>Версия</strong><span>0.9.0-beta.2</span></div>
+      <div><strong>Build</strong><span>9002</span></div>
+      <div><strong>Архитектура</strong><span>arm64</span></div>
+      <div><strong>Минимальная macOS</strong><span>14.0</span></div>
+      <div><strong>Подпись</strong><span>ad-hoc</span></div>
+      <div><strong>Нотаризация</strong><span>не отправлялась</span></div>
+    </section>
+
+    <section class="section-grid">
+      <article>
+        <h2>Кови и остров</h2>
+        <p>В Cove Studio можно выбрать скин Кови, аксессуары, реакции на нажатие и слежение за курсором в раскрытом острове. Classic остаётся эталонным обликом; Aurora, Midnight и Ember включены.</p>
+      </article>
+      <article>
+        <h2>Локальный контекст</h2>
+        <p>Codex lifecycle, таймеры, музыка, погода, время суток и аудиовыход отображаются компактными приоритетными реакциями.</p>
+      </article>
+      <article>
+        <h2>Мастерская Кови</h2>
+        <p>Создавайте локальные облики Кови, импортируйте и экспортируйте `.coviskin`, храните custom definitions отдельно от настроек. `.coviskin` не может содержать код или remote URLs.</p>
+      </article>
+      <article>
+        <h2>Local-first</h2>
+        <p>Нет product analytics, telemetry service или account system. Погода и optional online artwork lookup — единственные сетевые возможности preview.</p>
+      </article>
+    </section>
+
+    <section class="screens">
+      <h2>Production UI</h2>
+      <img src="../assets/images/studio-covi-ru.png" alt="Настройки Кови в Cove Studio">
+      <img src="../assets/images/studio-language-en.png" alt="Language settings in Cove Studio">
+      <img src="../assets/images/studio-workshop-en.png" alt="Covi Workshop in Cove Studio">
+    </section>
+
+    <section class="checksum">
+      <h2>Проверка DMG</h2>
+      <p>Ожидаемый размер: <code>6088654</code> bytes</p>
+      <pre><code>shasum -a 256 CovePilot-0.9.0-beta.2-macOS-arm64.dmg
+6715b40ba6dce8738aad527781fbc9c86bb85d74a46f017be3c0c81a6f2f9d40</code></pre>
+    </section>
+  </main>
+  <footer>
+    <a href="https://github.com/DenisMyagikov/CovePilot-Download/blob/main/PRIVACY.md">Privacy</a>
+    <a href="https://github.com/DenisMyagikov/CovePilot-Download/blob/main/SECURITY.md">Security</a>
+    <a href="https://github.com/DenisMyagikov/CovePilot-Download/blob/main/THIRD-PARTY-NOTICES.md">Third-party notices</a>
+    <a href="https://github.com/DenisMyagikov/CovePilot-Download/issues">Issues</a>
+  </footer>
+</body>
+</html>

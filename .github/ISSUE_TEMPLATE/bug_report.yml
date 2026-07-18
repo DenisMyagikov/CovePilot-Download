@@ -1,0 +1,41 @@
+name: Bug report
+description: Report a problem in the public technical preview.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include secrets, private Codex task text, Music metadata, device identifiers, coordinates or custom skin files in public issues.
+  - type: input
+    id: version
+    attributes:
+      label: CovePilot version
+      placeholder: 0.9.0-beta.2
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version and Mac model
+      placeholder: macOS 14.x, Apple silicon Mac
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true

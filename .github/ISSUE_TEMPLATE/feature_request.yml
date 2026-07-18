@@ -1,0 +1,21 @@
+name: Feature request
+description: Suggest an improvement for CovePilot.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please keep requests focused on public technical preview behavior.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or workflow
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+    validations:
+      required: true
