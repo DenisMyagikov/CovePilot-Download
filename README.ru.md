@@ -36,10 +36,3 @@ SHA-256:
 - Переключение аудиовыхода через публичные CoreAudio API.
 - Интерфейс на русском и английском.
 
-## Предупреждение перед установкой
-
-Preview подписан ad-hoc и не notarized. macOS не может проверить developer identity, поэтому Gatekeeper заблокирует первый запуск до ручного подтверждения в System Settings. Перед запуском прочитайте [INSTALL.ru.md](INSTALL.ru.md).
-
-## Scope и независимость
-
-Этот repository распространяет только публичные downloads и пользовательскую документацию. Основной source repository CovePilot остаётся private во время technical preview. CovePilot является независимым приложением и не аффилирован с Apple, OpenAI, GitHub, MusicBrainz, Cover Art Archive или Open-Meteo.
