@@ -36,5 +36,9 @@ SHA-256:
 - Audio output switching through public CoreAudio APIs.
 - Russian and English UI.
 
-<img width="517" height="226" alt="image" src="https://github.com/user-attachments/assets/8e0bf4e0-1bb4-4538-8071-56b1dff2d286" />
+<img width="495" height="227" alt="image" src="https://github.com/user-attachments/assets/92592033-b1c9-4f86-8a2d-6518772a184c" />\
+<img width="941" height="680" alt="image" src="https://github.com/user-attachments/assets/a7e93dc9-42f0-4a6d-bce6-5d7ca1c15c65" />
+
+
+
 
