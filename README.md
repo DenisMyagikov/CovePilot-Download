@@ -35,3 +35,6 @@ SHA-256:
 - Weather through Open-Meteo after location permission or manual city selection.
 - Audio output switching through public CoreAudio APIs.
 - Russian and English UI.
+
+<img width="517" height="226" alt="image" src="https://github.com/user-attachments/assets/8e0bf4e0-1bb4-4538-8071-56b1dff2d286" />
+
