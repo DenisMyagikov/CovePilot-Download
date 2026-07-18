@@ -37,3 +37,7 @@ SHA-256:
 - Переключение аудиовыхода через публичные CoreAudio API.
 - Интерфейс на русском и английском.
 
+<img width="484" height="207" alt="image" src="https://github.com/user-attachments/assets/cab4f37b-4673-493d-bf1e-5b84af0a201c" />
+<img width="940" height="676" alt="image" src="https://github.com/user-attachments/assets/1e144a6e-0c4d-4271-a21b-0b8948e3901e" />
+
+
